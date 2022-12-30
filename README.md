@@ -1,5 +1,5 @@
-# Press Release Summarizer
-## A machine learning based summarizer for press releases.</h>
+# Text Summarizer
+## A machine learning based text summarizer.</h>
 
 ____
 
