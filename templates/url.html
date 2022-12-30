@@ -1,0 +1,49 @@
+<html lang="en" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/url.css') }}">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <main class="main">
+        <section class="p">
+            <h1>VS<span>Cube</span></h1>
+            <p>With just a click of the button summarize press releases!!! </p>
+
+        </section>
+
+        <section class="form">
+
+            <label for="cars" class="length_label">SUMMARY LENGTH  :</label>
+
+            <select name="length" id="length" form="input" class="length">
+              <option value="short">Short</option>
+              <option value="medium">Medium</option>
+              <option value="long">Long</option>
+            </select>
+
+
+            <div class="text_area">
+                <textarea class="text" id="text"  form ="input"  name="text" rows="4" cols="55" placeholder="Enter url" ></textarea>
+                <form action= "{{ url_for('data') }}" method="POST" id="input" name="input">
+                    <input class="submit_button" type="submit" form="input" value="SUBMIT" id="submit_button" onclick="show_hide()" > </input>
+                </form>
+
+
+        </div>
+
+           <!-- </div>  -->
+        </section>
+    </main>
+
+</body>
+
+</html>

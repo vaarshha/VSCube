@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(57, 156, 140);
+
+}
+button{
+    cursor: pointer;
+    padding: 18px !important;
+}
+:root{
+    --Dark_Green: hsl(163, 55%, 20%);
+    --Green: hsl(154, 59%, 51%);
+    --Blue: hsl(248, 32%, 49%);
+    --Dark_Blue: hsl(249, 10%, 26%);
+    --Grayish_Blue: hsl(246, 25%, 77%);
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left:50px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+section.p{
+    color:rgb(93, 187, 194);
+    width: 28rem;
+    padding-right: 30px;
+}
+.p h1{
+    color: rgb(32, 51, 33);
+    font-size: 2.5rem ;
+    font-weight: 2000;
+}
+span{
+    color: rgb(215, 238, 207);
+}
+.p p{
+    padding-top:2em;
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+}
+
+button{
+    border:0.2em solid rgb(124, 114, 114);
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right:2em;
+    transition: black 1s;
+
+    border: none;
+    margin-top: 10px;
+    cursor:pointer;
+    border-radius: 50px;
+    box-shadow: rgb(13, 14, 13) 1px 4px 3px;
+
+}
+.button_section{
+    display: block;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+#terms{
+    color: var(--Dark_Green);
+    text-decoration: none;
+
+}
+
